@@ -5,24 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
     <title>Document</title>
 </head>
 
 <body>
     <header class="en-tete">
         <div class="conteneur en-tete-contenu">
-            <a href="index.html" class="logo">Élan Fitness</a>
+            <a href="index.html" class="logo"><img src="img/Elan-fitness.png" alt="Élan Fitness" height="200px"></a>
 
             <nav aria-label="Navigation principale">
                 <ul class="menu">
-                    <li><a href="index.html" class="lien-actif">Accueil</a></li>
+                    <li><a href="index.html">Accueil</a></li>
                     <li><a href="Apropos.html">À propos</a></li>
                     <li><a href="programmes.html">Programmes</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="contactus.html" class="lien-actif">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <h1 class="main">Contact Us</h1>
+    <p class="slogan">Ton énergie, ton rythme.</p>
+    <div class="countainer">
+        <div class="contactusleft">
+            <h1>phone number</h1>
+            <hr>
+            <h2>0600000000</h2>
+            <h1>email</h1>
+            <hr>
+            <h2>email@example.com</h2>
+            <hr>
+        </div>
+        <div class="contactusright">
+            <h1>first Name</h1>
+            <input type="text" placeholder="enter your first name" required>
+            <h1>last Name</h1>
+            <input type="text" placeholder="enter your last name" required>
+            <h1>email</h1>
+            <input type="email" placeholder="enter your email" required>
+            <h1>Messsage</h1>
+            <textarea name="Messsage" id="Messsage" rows="5" cols="30"
+                placeholder="enter a messege here ...."></textarea>
+        </div>
+    </div>
+    <footer class="pied-de-page">
+        <div class="conteneur">
+
+            <div class="pied-haut">
+                <div>
+                    <p class="logo logo-clair">Élan Fitness</p>
+                    <p class="slogan">Ton énergie, ton rythme.</p>
+                </div>
+
+                <nav aria-label="Navigation principale">
+                    <ul class="menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="Apropos.html">À propos</a></li>
+                        <li><a href="programmes.html">Programmes</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="pied-bas">
+                <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+                <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    color: #FF6B2C;
+}
+
+.countainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.contactusleft {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactusright {
+    background-color: #FF6B2C;
+    width: 700px;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
