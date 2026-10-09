@@ -16,7 +16,10 @@ body {
   background-color: #F7F8FA;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
 }
@@ -180,15 +183,6 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
-.logo::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  margin-left: 8px;
-  background-color: #FF6B2C;
-  border-radius: 50%;
-}
-
 .menu {
   display: flex;
   gap: 32px;
@@ -272,7 +266,7 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
-.chiffre + .chiffre {
+.chiffre+.chiffre {
   border-left: 1px solid #E5E7EB;
 }
 
@@ -361,7 +355,7 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.carte-programme > img {
+.carte-programme>img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -420,7 +414,7 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
-.programme-corps h3 + p {
+.programme-corps h3+p {
   margin-bottom: 16px;
 }
 

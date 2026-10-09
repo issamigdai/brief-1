@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contactus.css">
-    <title>Document</title>
+    <title>Contactez-vous Élan Fitness</title>
 </head>
 
 <body>
@@ -24,28 +24,48 @@
             </nav>
         </div>
     </header>
-    <h1 class="main">Contactez-vous</h1>
-    <p class="slogan">Ton énergie, ton rythme.</p>
-    <div class="countainer">
-        <div class="contactusleft">
-            <h1>phone number</h1>
-            <hr>
-            <h2>0600000000</h2>
-            <h1>email</h1>
-            <hr>
-            <h2>email@example.com</h2>
-            <hr>
+    <div class="page-intro">
+        <h1>Contactez-vous</h1>
+        <p class="slogan">Ton énergie, ton rythme.</p>
+        <br>
+        <p>Not sure what you need? The team at Elan fitness will be happy to listen to you and suggest gym plans.
+        </p>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h2>email</h2>
+            <p>example@gmail.com</p>
+            <h2>telephone</h2>
+            <p>060000000</p>
+            <h2>Adress:</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6647.842980251457!2d-7.634680901997053!3d33.5813876407856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s12%20rue%20des%20Palmiers%2C%2020000%20Casablanca!5e0!3m2!1sfr!2sma!4v1791544354671!5m2!1sfr!2sma"
+                width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
-        <div class="contactusright">
-            <h1>prenom</h1>
-            <input type="text" placeholder="enter your first name" required>
-            <h1>Nom</h1>
-            <input type="text" placeholder="enter your last name" required>
-            <h1>email</h1>
-            <input type="email" placeholder="enter your email" required>
-            <h1>Messsage</h1>
-            <textarea name="Messsage" id="Messsage" rows="5" cols="30"
-                placeholder="enter a messege here ...."></textarea>
+        <div class="right">
+            <h2>we would love to hear from you!</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full name">
+                </div>
+
+                <div>
+                    <label for="email">email*</label>
+                    <input type="email" required placeholder="email">
+                </div>
+                <div>
+                    <label for="phone number">phone number*</label>
+                    <input type="tel" required placeholder="phone Number">
+                </div>
+                <div>
+                    <label for="message">message</label>
+                    <textarea name="message" rows="5" placeholder="write your message here ..."></textarea>
+                </div>
+                <button class="btn">submit</button>
+            </form>
+
         </div>
     </div>
     <footer class="pied-de-page">

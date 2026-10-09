@@ -1,40 +1,66 @@
-.main {
+.page-intro {
     display: flex;
+    text-align: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 15px;
 }
 
-.slogan {
-    display: flex;
-    justify-content: center;
+.page-intro p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-intro p.slogan {
     color: #FF6B2C;
 }
 
-.countainer {
+.container {
     display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
-
-}
-
-.contactusleft {
-    background-color: rgb(255, 255, 255);
-    width: 350px;
-    height: 700px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contactusright {
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
     background-color: #FF6B2C;
-    width: 700px;
-    height: 700px;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+.left,
+.right {
+    flex: 1 1 300px;
+}
+
+.left {
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.right input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0 15px;
+}
+
+.right textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0 15px;
+}
+
+iframe {
+    max-width: 450px;
+    border-radius: 15px;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
 }
