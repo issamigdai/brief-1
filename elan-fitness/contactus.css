@@ -33,23 +33,27 @@
 }
 
 .left {
-    background-color: aliceblue;
+    background-color: rgb(242, 202, 175);
     border-radius: 15px;
     padding: 25px;
 }
 
 .right input {
+    font-family: 'Courier New', Courier, monospace;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
     margin: 5px 0 15px;
+    border: none;
 }
 
 .right textarea {
+    font-family: 'Courier New', Courier, monospace;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
     margin: 5px 0 15px;
+    border: none;
 }
 
 iframe {
@@ -63,4 +67,11 @@ iframe {
     height: 50px;
     width: 100%;
     border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
 }

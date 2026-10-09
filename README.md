@@ -1,1 +1,26 @@
 # brief-1
+-what a tag is, what an element is and what an attribute is.
+-every web page has a structure that starts with `<!DOCTYPE html>` followed by `<html>` `<head>` `<body>` and `<title>`.
+-about tags such as headings, paragraphs, links using `<a href>` and images using `<img src alt>`.
+-that some tags come in pairs like `<p>` and `</p>` while others close themselves like `<br />`
+-about tags like `<header>` `<nav>` `<main>` `<section>` and `<footer>`
+-there are three ways to add CSS. I now understand why using an external `.css` file is the best choice.
+-how to use selectors for tags classes with a dot (`.`). Ids with a hash (`#`). I now know when to use each one.
+-about colors in hex and rgb. I also learned how to control font size, width and height.
+-that margin and padding are part of the box model. Even though it wasn't covered in the guide I know I will need to use this
+-that Browser DevTools can be accessed by right-clicking on a page and selecting "Inspect." This lets me see and test styles in time.
+-that `display: flex` should be applied to the parent element, not the child elements.
+-that setting `direction: column` creates a layout.
+-that the `gap` property adds spacing between items in a container.
+-about `justify-content` and `align-items`. I also learned that the axes switch when using a column layout.
+-that having a folder structure with folders like `css/` and `img/` is important. I also learned that file names should not have spaces
+-that paths are needed for `src` `href` and linking to stylesheets.
+-how to build a -page website where the menu and footer appear on every page.
+-editor skills in VS Code, such as opening a folder from the file explorer and properly indenting code.
+-the difference between methods and realized why short development cycles help improve work.
+-that Scrum has three roles, three meetings and three artifacts.
+-how to write a user story using the format *As a... I want... So that...*.
+-that missing closing tags, wrong paths and typos are causes of beginner-level bugs.
+-that I should look things up on MDN Web Docs of trying to memorize everything.
+-that typing code by hand is better, than copying and pasting.
+-that making changes and checking the result each time is a good habit.
