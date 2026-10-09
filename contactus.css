@@ -23,7 +23,7 @@
     max-width: 900px;
     margin: 30px auto;
     padding: 25px;
-    background-color: #FF6B2C;
+    background-color: #c3c2c14c;
     border-radius: 15px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .left {
-    background-color: rgb(242, 202, 175);
+    background-color: rgb(240, 227, 208);
     border-radius: 15px;
     padding: 25px;
 }
