@@ -15,12 +15,10 @@
   -about `justify-content` and `align-items`. I also learned that the axes switch when using a column layout.
   -that having a folder structure with folders like `css/` and `img/` is important. I also learned that file names should not have spaces
   -that paths are needed for `src` `href` and linking to stylesheets.
-  -how to build a -page website where the menu and footer appear on every page.
+  -how to build a page website where the menu and footer appear on every page.
   -editor skills in VS Code, such as opening a folder from the file explorer and properly indenting code.
   -the difference between methods and realized why short development cycles help improve work.
-  -that Scrum has three roles, three meetings and three artifacts.
-  -how to write a user story using the format *As a... I want... So that...*.
+  -that Scrum has three roles.
   -that missing closing tags, wrong paths and typos are causes of beginner-level bugs.
-  -that I should look things up on MDN Web Docs of trying to memorize everything.
   -that typing code by hand is better, than copying and pasting.
   -that making changes and checking the result each time is a good habit.
